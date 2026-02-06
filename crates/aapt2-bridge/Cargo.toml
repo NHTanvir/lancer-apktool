@@ -1,0 +1,18 @@
+[package]
+name = "aapt2-bridge"
+description = "Bare-minimum resource compiler: wraps a bundled/system aapt2 binary"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[features]
+default = []
+# When enabled, prefer a system/bundled aapt2 binary for resource compilation.
+native-aapt2 = []
+
+[dependencies]
+anyhow.workspace = true
+thiserror.workspace = true
+tracing.workspace = true

@@ -1,0 +1,14 @@
+[package]
+name = "smali"
+description = "DEX <-> Smali assembler/disassembler (port of smali/baksmali)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+thiserror.workspace = true
+byteorder.workspace = true
+tracing.workspace = true

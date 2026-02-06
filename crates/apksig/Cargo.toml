@@ -1,0 +1,17 @@
+[package]
+name = "apksig"
+description = "APK signing: v1 (JAR), v2/v3 (APK Signing Block), v4 (.apk.idsig)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+thiserror.workspace = true
+byteorder.workspace = true
+tracing.workspace = true
+sha1.workspace = true
+sha2.workspace = true
+zip.workspace = true
