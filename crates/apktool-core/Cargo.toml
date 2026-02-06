@@ -1,0 +1,29 @@
+[package]
+name = "apktool-core"
+description = "Orchestration: decode/build pipelines, framework cache, diff, patches"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
+byteorder.workspace = true
+serde.workspace = true
+serde_yaml.workspace = true
+serde_json.workspace = true
+zip.workspace = true
+flate2.workspace = true
+sha1.workspace = true
+sha2.workspace = true
+walkdir.workspace = true
+directories.workspace = true
+
+axml.workspace = true
+arsc.workspace = true
+smali.workspace = true
+apksig.workspace = true
+aapt2-bridge.workspace = true
